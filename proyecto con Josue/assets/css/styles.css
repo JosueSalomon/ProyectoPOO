@@ -1,0 +1,816 @@
+body{
+    margin: 0;
+}
+
+#Registro{
+background-color: #F2E5D9;
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+display: none;
+
+}
+
+.bloque{
+    /*border: 2px solid green;*/ 
+  height: 7vh;
+  background-color: #4F8EC4;
+  width: 100%;
+}
+
+#Registro_Titulo{
+    /*border: 2px solid green;*/ 
+    height: 8vh;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #4F8EC4;
+    letter-spacing: 1px;
+    ;
+
+
+}
+
+.Registro_Form{
+    width: 80%;
+    margin-top: -2vh;
+
+}
+
+#Registro_Subtitulo{
+    /*border: 2px solid green;*/ 
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+    color: #4F8EC4;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.Form_div{
+    /*border: 2px solid green;*/ 
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+}
+
+.label_Registro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #4F8EC4;
+    margin-bottom: -19px;
+    width: 100%;
+
+
+}
+
+.input_Registro{
+    width: 80%;
+    background-color: #4f8dc44e;
+    border-radius: 15px;
+    height: 45px;
+    border: none;
+}
+
+.Nombre_text{
+    display: flex;
+    justify-content: center;
+}
+
+#Registro_boton{
+    /*border: 2px solid green;*/ 
+    height: 37vh;
+}
+
+.boton{
+    background-color: #4F8EC4;
+    border-radius: 16px;
+    height: 15%;
+    margin: 60px auto 30px auto;
+    border: none;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 25px;
+
+}
+
+#signUpClientes{
+background-color: #F2E5D9;
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100vh;
+justify-content: center;
+align-items: center;
+display: none;
+}
+
+
+.elipse{
+    background-color: #4F8EC4;
+    height: 90px;
+    width: 45%;
+    border-radius: 100%;
+    margin: -100px 0 10px 0;
+}
+
+#signUp_Subtitulo{
+    margin: 30px 0;
+}
+
+#loginClientes{
+    background-color: #F2E5D9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#ovalo{
+    height: 30vh;
+    width: 100%;
+    border-radius: 0 0 800px 800px ;
+    background-color: #4F8EC4;
+    margin-bottom: 35px;
+}
+
+#loginEmail{
+width: 80%; 
+display: flex;   
+}
+
+#loginContra{  
+    width: 80%;   
+    display: flex;    
+}
+   
+#loginBoton{
+    margin: 25px;
+    width: 100%;
+    display: flex;
+}
+
+
+
+.inputLogin{
+    background-color: #4f8dc43e;
+    border: none;
+    border-radius: 50px;
+    height: 60px;
+    margin: 10px auto 10px auto;
+    
+}
+::placeholder{
+    color: #4f8dc4ac;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 5px;
+
+}
+
+#botonInicio, #BotonRegistrarM{
+    background-color: #4F8EC4;
+    height: 50px;
+    width: 80%;
+    margin: 0 auto;
+    border: none;
+    border-radius: 60px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold
+}
+
+h4{
+    color:#4F8EC4 ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#clientes1{
+    background-color: #F2E5D9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.clientes_header{
+    height: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.header_map{
+    display: flex;
+}
+.header_carrito{
+    display: flex;
+}
+#clientes_titulo{
+    height: 10%;
+    display: flex;
+}
+
+.clientes_nav{
+    height: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientes_search{
+    width: 85%;
+    height: 78%;
+    border: none;
+    margin-bottom: 30px;
+    z-index: 10;
+}
+#clientes_search1{
+    height: 50px;
+}
+#tiendas{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 65%;
+    width: 95%;
+    margin: 0 auto;
+    grid-column-gap: 19px;
+    grid-row-gap: 19px;
+    overflow-y: scroll
+}
+
+.tiendax{
+    height: 190px;
+    background-color: #9CBFDE;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+    
+    
+}
+
+.img_tienda{
+    width: 70%;
+    height: 95%;
+    object-fit: cover;
+    margin: 0 auto 0 23px;
+}
+
+.tiendax_img{
+    height: 80%;
+    margin-left: 15px;
+    display: flex;
+
+
+}
+
+
+#header_map{
+    width: 40%;
+}
+
+#header_carrito{
+    width: 20%;
+}
+
+#clientes2{
+    background-color:#F2E5D9;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    display: none;
+}
+
+#clientes2_titulo{
+    height: 5%;
+    display: flex;
+}
+
+#clientes_search2{
+    width: 90%;
+    height: 140%;
+    border: none;
+
+    margin-top: 25px;
+}
+
+#nav2{
+    height: 26px;
+    z-index: 100;;
+}
+
+#clientes2_categorias{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    margin: 50px auto 60px auto;
+}
+
+.clientes2_subtitulo{
+    height: 10%;
+}
+
+#categorias{
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-column-gap: 14px; 
+grid-row-gap: 13px; 
+
+
+}
+
+.categoriax{
+    height: 128.5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #9cbfdebe;
+    border-radius: 25px;
+    box-shadow: 3px 7px 4px rgb(156, 156, 156);
+}
+
+.categoriax_img{
+    width: 80%;
+    height: 78%;
+    margin-left: auto;
+    margin-right: auto;
+    mix-blend-mode: multiply;
+
+}
+
+.categoriax_nombre{
+    height: 22%;
+    display: flex;
+    justify-content: center;
+}
+
+.img_categoria{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: top;
+
+    
+}
+
+#populares{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.popularx{
+    display: flex;
+    height: 60px;
+    background-color: #9cbfde92;
+    border-radius: 20px;
+    margin: 6px;
+    box-shadow: -2px 2px 4px grey;
+}
+
+.popularx_img{
+width: 20%;
+display: flex;
+}
+
+.img_popularx{
+    width: 60%;
+    height: 40px;
+    margin: auto;
+}
+
+.popularx_nombre{
+    width: 60%;
+}
+
+.popularx_precio{
+width: 20%;
+display: flex;
+}
+
+#clientes2_info{
+    height: 200px;
+    display: flex;
+
+}
+
+#info_publicidad{
+    height: 100%;
+    width: 63%;
+}
+
+#info_logo{
+width: 37%;
+height: 88%;
+}
+
+#logo_info{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
+
+/* Motoristas */
+
+#registroM{
+    height: 100vh;
+    background-color:#F2E5D9;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: fixed;
+}
+
+#registroMBack{
+    /* border: 2px solid blue; */
+    height: 4%;
+}
+#registroMImg{
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+#registroMTitulo{
+    /* border: 2px solid salmon; */
+    height: 6%;
+}
+
+.registroMInput{
+    /* border: 2px solid orange; */
+    height: 8%;
+    width: 80%;
+}
+
+.inputMRegistro{
+    width: 100%;
+    height: 75%;
+    background-color: #9cbfde59;
+    border: none;
+    border-radius: 20px;
+}
+
+#registroMBoton{
+    /* border: 2px solid green; */
+    height: 18%;
+    width: 40%;
+}
+
+#Img_Circulo{
+    /* border: 4px solid cadetblue; */
+    border-radius: 270% 157% 191% 100%;
+    width: 75%;
+    background-color:#9cbfde;
+    overflow: hidden;
+}
+
+
+#img_motorista{
+    object-fit: cover;
+    width: 140%;
+    height: 100%;
+    object-position: center;
+}
+
+/* CSS para home */
+
+#homeM{
+    background-color: #9cbfde;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#home_azul{
+    background-color: #9CBFDE;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#home_titulo{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home_logo{
+    background-color: #f2e5d9b8;
+    height: 40%;
+    width: 42%;
+    margin: 0 auto;
+    border-radius: 100% 100% 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 4px grey;
+    animation-name: logoanime2;
+    animation-duration: 3s;
+
+}
+#logoImg_home{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    animation-name: logoanime;
+    animation-duration: 3.5s;
+
+}
+
+@keyframes logoanime {
+    from{
+        margin-right: 170px;
+    }
+    to{
+        margin-right: 0;
+    }    
+}
+@keyframes logoanime2 {
+    from{
+        box-shadow: none;
+    }
+    to{
+        box-shadow: 5px 5px 4px grey;
+    }    
+}
+
+
+#home_hueso{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 38% 32% 0px 0px;
+    background-color: #f2e5d9
+}
+
+#hueso_botones{
+    /* border: 2px solid green; */
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+#botones_2{
+    /* border: 2px solid blue; */
+    height: 50%;
+    display: flex;
+
+}
+
+#botones_1{
+    /* border: 2px solid cadetblue; */
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#botonhome1{
+    /* border: 2px solid brown; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+#botonhome2{
+    /* border: 2px solid brown; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.homeBotones{
+    background-color: #4F8EC4;
+    border: none; 
+    width: 80%;
+    height: 90%;
+    border-radius: 60px;
+}
+
+.h2botonesHome{
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+    color: rgba(240, 248, 255, 0.972);
+}
+
+/* administradores */
+
+#administradores{
+    background-color: #F2E5D9;
+    height: 100vh;
+    display: none;
+}
+
+#admin_menu{
+    /* border: 2px solid blue; */
+    width: 15%;
+    background-color: #4F8EC4;
+}
+
+#admin_form{
+    /* border: 2px solid yellow; */
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#adminform_nav{
+    /* border: 2px solid red; */
+    height: 15%;
+    display: flex;
+    width: 100%;
+
+
+}
+
+#navForm{
+    /* border: 2px solid rgb(0, 106, 106); */
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#formAdmin{
+    height: 85%;
+    width: 90%;
+}
+
+.administradores_inputs{
+    width: 80%;
+    height: 35px;
+    border: none;
+    background-color: #4f8dc445;
+    border-radius: 10px;
+    
+}
+#navForm_search::placeholder{
+    color: rgba(62, 62, 62, 0.624);
+    font-size: 18px;
+}
+
+#navUser{
+    /* border: 2px solid rgb(20, 105, 105); */
+    width: 20%;
+    display: flex;
+}
+
+#userA_foto{
+    /* border: 2px solid rgb(33, 20, 105); */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foto_contenedor{
+    /* border: 2px solid mediumseagreen; */
+    width: 100%;
+    height: 58%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+#adminJosue{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#userA_nombre{
+    /* border: 2px solid rgb(23, 20, 105); */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#nombreA_nombre{
+/* border: 2px solid red; */
+height: 50%;
+}
+#nombreA_asignacion{
+    /* border: 2px solid red; */
+    height: 50%;
+    
+}
+#user_notif{
+    /* border: 2px solid rgb(20, 33, 105); */
+    width: 25%;
+}
+
+#adminform_titulo{
+    /* border: 2px solid red; */
+    height: 7%;
+    display: flex;
+    align-items: center;
+}
+
+.adminform_row{
+    /* border: 2px solid brown; */
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+}
+
+.adminform_column{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    /* border: 2px solid sienna; */
+    width: 50%;
+}
+
+.adminform_row2{
+    height: 9%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: -10px;
+}
+
+.column2{
+    /* border: 2px solid sienna; */
+    width: 30%;
+}
+
+#img-logo{
+    width: 100px;
+    height: 100px;
+}
+
+#opciones-lado{
+    width: 268px;
+}
+
+#Menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.texto{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin:0;
+}
+.ulAdmin{
+    margin: 0;
+}
+
+.h5Lista{
+margin: 0;
+font-size: 15px;
+font-weight: 100;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#administradores_productos{
+    background-color: #F2E5D9;
+    height: 100vh;
+    display: flex;
+}
+
+a:visited{
+    color: white;
+}
