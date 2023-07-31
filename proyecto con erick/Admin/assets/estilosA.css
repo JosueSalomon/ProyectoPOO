@@ -1,0 +1,65 @@
+body{
+    width: 1440px;
+    height: 1024px;
+    background-color: rgb(242, 229, 217,0.5);
+    margin: 0px;
+}
+
+#Barra-izquierda{
+    width: 15%;
+    height: 1024px;
+    background-color: #4F8EC4;
+}
+
+#img-logo{
+    width: 100px;
+    height: 100px;
+}
+
+#opciones-lado{
+    width: 268px;
+}
+
+#Menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+
+.texto{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#centro{
+    width: 100%;
+}
+
+#infoUsuario{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px
+}
+
+.imgPerfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+#contenedor-motoristas{
+    width: 1100px;
+    height: 754px;
+}
+
+#barrita{
+    display: flex;
+    justify-content: space-around;
+    background-color: #4F8EC4;
+}
+
+#infoMotorista{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10px;
+}
