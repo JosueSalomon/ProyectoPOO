@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/estilos clientes.css">
+    <script src="https://kit.fontawesome.com/18d8db3f65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="detallesCompra">
+
+    <div id="venta-libro">
+            <div id="padreIMG">
+                <div><img id="imgLibro" src="assets/img/LibroVenta.jpeg" alt=""></div>
+            </div>
+    </div>
+
+    <div id="info-libro">
+        <div id="Nombre-Review">
+            <div>
+                <p style="color: #4F8EC4; font-size: 24px; font-weight: bold;">Nombre libro</p>
+            </div>
+            <div id="Review">
+                <div>
+                    <i style="padding-top: 15px;" class="fa-solid fa-star"></i>
+                </div>
+                <div>
+                    <p>4.8 (41 Reviws)</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="precio-agregar">
+            <div>
+                <p style="font-size: 24px; font-weight: bold; color: #9CBFDE;">$ precio</p>
+            </div>
+    
+            <div >
+                <div id="sumaLibro" >
+                    <button class="botonAgrega">-</button>
+                    <p style="font-size: 24px; margin-top: 0px;">1</p>
+                    <button class="botonAgrega">+</button>
+                </div>
+            </div>
+    
+        </div>
+
+        <div id="Descripcion">
+            <div>
+                <p style="color: #4F8EC4; font-size: 18px; font-weight: bold; padding-left: 50px;">
+                    Descripción
+                </p>
+            </div>
+
+            <div>
+                <p style="text-align: center;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam earum expedita quod unde aliquam.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div onclick="ConfirmarCompra()" style="position: absolute;top: 670px;right: 80px;">
+    <div style="width: 100%; height: 100%; padding: 16px; background: #9CBFDE; border-radius: 15px; justify-content: center; align-items: center; gap: 10px; display: inline-flex">
+        <div style="color: white; font-size: 23px; font-family: Roboto; font-weight: 800; word-wrap: break-word">Agregar a la orden</div>
+        </div>
+    </div>
+    </div>
+    
+    <div id="confirmarCompra">
+
+    <div id="Pago">
+        <nav id="nav-pago">
+            <div onclick="regresarConfirmacion()" id="flecha">
+                <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div id="Metodo-pago">
+                <p>Metodo de pago</p>
+            </div>
+        </nav>
+
+    </div>
+
+    <div id="tarjeta">
+        <div id="contenedor-tarjeta">
+            <p style="    padding-top: 75px; padding-left: 20px;">
+                xxxx-xxxx-xxxx-xxxx
+            </p>
+        </div>
+    </div>
+
+    <div id="info-tarjeta">
+        <div class="contenedor-input"><input class="inputs-tarjetas" type="text" placeholder="Nombre en la tarjeta"></div>
+        <div class="contenedor-input"><input class="inputs-tarjetas" type="text" placeholder="Numero en la tarjeta"></div>
+        <div class="contenedor-input"><input class="inputs-tarjetas" type="text" placeholder="Fecha de expiracion"></div>
+        <div class="contenedor-input"><input class="inputs-tarjetas" type="text" placeholder="CVV"></div>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <div>
+            <button id="fin-compra">
+                Finalizar compra
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<script src="assets/Controlador.js" ></script>
+</body>
+</html>

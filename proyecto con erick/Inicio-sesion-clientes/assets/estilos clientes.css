@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    background-color: #f3ede7;
+}
+
+#imgLibro{
+    width: 200px;
+    height: 155px;
+    right: 82px;
+}
+
+#padreIMG{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 290px;
+}
+
+#info-libro{
+    background-color: white;
+    border-radius: 25px 25px 0px 0px;
+    width: 375px;
+    height: 506px;
+}
+
+#Nombre-Review{
+    display: flex;
+    justify-content: space-around;
+}
+
+#Review{
+    display: flex;
+    padding-top: 16.5px;
+}
+
+#precio-agregar{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sumaLibro{
+    display: flex;
+    padding-top: 25px;
+}
+
+.botonAgrega{
+    height: 32px;
+    width: 32px;
+    border: 0px;
+    border-radius: 100%;
+    background-color: #9CBFDE;
+    font-size: 25px
+}
+
+#detallesCompra{
+    display: block;
+}
+
+#Pago{
+}
+
+#nav-pago{
+    display: flex;
+    justify-content: space-around;
+    background-color: #E6E6E6;
+}
+
+#flecha{
+    padding-top: 15px;
+    position: absolute;
+    padding-right: 315px;
+    font-size: 24px;
+}
+
+#Metodo-pago{
+    font-size: 20px;
+    font-weight: bold;
+    color: #00234A;
+}
+
+#tarjeta{
+    display: flex;
+    justify-content: center;
+    padding-top: 55px;
+}
+
+#contenedor-tarjeta{
+    width: 316px;
+    height: 161px;
+    background-color: #004FA8;
+    border-radius: 20px;
+}
+
+#info-tarjeta{
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+.inputs-tarjetas{
+    width: 282.5px;
+    height: 49px;
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contenedor-input{
+    padding-bottom: 20px;
+}
+
+#fin-compra{
+    width: 282px;
+    height: 41px;
+    border: 0;
+    border-radius: 20px;
+    background-color: #9CBFDE;
+}
+
+#confirmarCompra{
+    display: none;
+}

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/estilosM.css">
+    <script src="https://kit.fontawesome.com/18d8db3f65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section id="registro-motoristas">
+        <nav id="nav-motorista">
+            <div onclick="regresoInicio()">
+                <i class="iconos fa-solid fa-arrow-left"></i>
+            </div>
+
+            <div>
+                <p id="Titulo">Readigo</p>
+            </div>
+
+            <div>
+                <i class="iconos fa-solid fa-user"></i>
+            </div>
+        </nav>
+
+        <div style="    position: absolute;
+        /* width: 40px; */
+        z-index: -20;
+        left: 30px;
+    bottom: 280px;;">
+            <img style="    width: 315px;
+            height: 315px; opacity: 0.3;" src="assets/img/background-img.png" alt="">
+        </div>
+
+        <div id="ordenes-pendentes">
+            <p style="text-align: center; font-size: 24px; font-weight: bold;">
+                Ordenes pendientes
+            </p>
+
+            <div id="padre-pendientes">
+                <div onclick="entrarOrden()" style="opacity: 0.85" id="contenedor-orden">
+                    <p style="text-align: center; color: white;">Orden #59</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="ordenes-disponibles">
+            <p style="text-align: center; font-size: 24px; font-weight: bold;">
+                Ordenes disponibles
+            </p>
+
+            <div id="padre-disponibles">
+                <div onclick="entrarOrden()" id="contenedor-orden" style="opacity: 0.85">
+                    <p style="text-align: center; color: white;">Orden #59</p>
+                </div>
+                <div onclick="entrarOrden()" id="contenedor-orden" style="opacity: 0.85">
+                    <p style="text-align: center; color: white;">Orden #12</p>
+                </div>
+                <div onclick="entrarOrden()" id="contenedor-orden" style="opacity: 0.85">
+                    <p style="text-align: center; color: white;">Orden #47</p>
+                </div>
+                <div onclick="entrarOrden()" id="contenedor-orden" style="opacity: 0.85">
+                    <p style="text-align: center; color: white;">Orden #70</p>
+                </div>
+                <div onclick="entrarOrden()" id="contenedor-orden" style="opacity: 0.85">
+                    <p style="text-align: center; color: white;">Orden #21</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div>
+            <img src="assets/img/background-img.png" alt="">
+        </div> -->
+    </section>
+
+    <section id="readigo-motorista">
+        <div id="parte-superior">
+            <p style="text-align: center; font-size: 31px; font-weight: bold; color: white; ">
+                Readigo Motoristas
+            </p>
+        </div>
+
+        <div id="inicio-sesion">
+            <p style="text-align: center; font-size: 32px; font-weight: bold; color: #4F8EC4;">Inicio Sesion</p>
+
+            <div id="padre-input">
+                <div class="inputsss"><input class="inputsMotoristas" type="text" placeholder="Ingresa tu usuario" ></div>
+                <div class="inputsss"><input class="inputsMotoristas" type="text" placeholder="Ingresa tu contrase;a" ></div>
+                <div class="inputsss"><input class="inputsMotoristas" type="text" placeholder="Ingresa tu plava vehicular" ></div>
+            </div>
+
+            <div onclick="entrarOrdenes()" id="botonM">
+                <button style="    width: 251px;
+                height: 21px;
+                border: 0px;
+                border-radius: 15px;
+                background-color: #4F8EC4;">Iniciar sesion</button>
+            </div>
+        </div>
+
+
+    </section>
+
+    <section id="vista-motorista">
+        <nav style="background-color: #9CBFDE; border-radius: 7px 7px 0 0; width: 428px; height: 49px; display: flex;
+        justify-content: space-around;">
+            <div onclick="regresarOrdenes()">
+                <i class="Iconos-motorista fa-solid fa-bars"></i>
+            </div>
+            <div>
+                <p style="margin: 0px;
+                padding-top: 10px; text-align: center; color: white; font-size: 24px; font-weight: bolder;">Readigo</p>
+            </div>
+            <div style="padding-right: 30px;">
+                <i class="Iconos-motorista fa-solid fa-user"></i>
+            </div>
+        </nav>
+
+        <p style="text-align: center; color: #4F8EC4; font-size: 20px; font-weight: bold;">Detalles pedido</p>
+
+        <div id="contendor-img">
+            <div>
+                <img style="width: 200px; height: 155px; padding-right: 50px;  padding-left: 165px;" src="../Inicio-sesion-clientes/assets/img/LibroVenta.jpeg" alt="">
+            </div>
+
+            <div >
+                <i style="padding-right: 80px;
+                font-size: 30px;" class="fa-solid fa-arrow-right"></i>
+            </div>
+
+            <div id="puntitos">
+                <div style="width: 100%; height: 100%;     position: absolute;
+                top: 380px;
+                left: 187px;">
+                    <div style="width: 16px; height: 16px; left: 20px; top: 0px; position: absolute; background: white; border-radius: 9999px; border: 0.50px #4F8EC4 solid"></div>
+                    <div style="width: 16px; height: 16px; left: 45px; top: 0px; position: absolute; background: white; border-radius: 9999px; border: 0.50px #4F8EC4 solid"></div>
+                    <div style="width: 16px; height: 16px; left: 70px; top: 0px; position: absolute; background: white; border-radius: 9999px; border: 0.50px #4F8EC4 solid"></div>
+                    <div style="width: 12px; height: 12px; left: 2px; top: 2px; position: absolute; background: #4F8EC4; border-radius: 9999px"></div>
+                    </div>
+            </div>
+        </div>
+
+        <div id="Nombre-precio" style="padding-top: 40px;">
+            <div style="display: flex; justify-content: space-around;">
+                <p style="font-size: 16px; color: #4F8EC4;">Nombre libro</p> 
+                <p style="font-size: 16px; color: #4F8EC4;">Precio</p>
+            </div>
+            <div style="display: flex; justify-content: space-around;">
+                <p style="font-size: 16px; color: #4F8EC4;">Nombre libro</p> 
+                <p style="font-size: 16px; color: #4F8EC4;">Precio</p>
+            </div>
+
+        </div>
+
+        <div>
+            <p class="infoPedido">Total:  $Precio</p>
+        </div>
+
+        <div>
+            <p class="infoPedido">
+                Información de compra
+            </p>
+        </div>
+
+        <div>
+            <p class="infoPedido">Nombre de Cliente:  Nombre Cliente Apellido Cliente</p>
+        </div>
+
+        <div>
+            <p class="infoPedido">Dirección: Direccion de cliente </p>
+        </div>
+
+        <div>
+            <p class="infoPedido">
+                Telefono: #### ####
+            </p>
+        </div>
+    </section>
+
+
+    <script src="assets/controlador.js"></script>
+</body>
+</html>
